@@ -70,7 +70,7 @@ const Registration = () => {
                 check: false
             })
 
-            navigate("/selection");
+            navigate("/Selection");
         }
 
     
@@ -138,7 +138,7 @@ const Registration = () => {
                 name="check"
                 onChange={handleChange}
                 />
-                <label htmlFor="check" className='text-zinc-500 mx-2 '>Share my registration data with Superapp</label>
+                <label htmlFor="check" className='text-zinc-500 mx-2 '>Share my registration data with Superapp</label><br />
                 <span className='h-5 text-red-700'>{errorForm.check}</span> 
 
                 <button type="submit" className='bg-green-500 text-white rounded-3xl w-full h-10 font-semibold mt-12'>SIGN UP</button>

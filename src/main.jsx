@@ -6,6 +6,7 @@ import './index.css'
 import Registration from './pages/Registration.jsx'
 import Selection from './pages/Selection.jsx'
 import NotFound from './pages/NotFound.jsx'
+import Dashboard from './pages/Dashboard.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,9 +14,10 @@ createRoot(document.getElementById('root')).render(
        <Routes>
           <Route path="/" element={<Registration />} />
           <Route path="/Selection" element={<Selection/>} />
+          <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="*" element={<NotFound/>} />
        </Routes>
-    </BrowserRouter>
+    </BrowserRouter>    
     
-  </StrictMode>,
+  </StrictMode>
 )
