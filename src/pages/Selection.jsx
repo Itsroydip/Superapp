@@ -69,7 +69,7 @@ const Selection = () => {
   return (
     <div className='min-h-screen flex flex-col lg:flex-row bg-black px-6 lg:px-28' >
       <div className='w-full lg:w-2/5 my-8 lg:my-32 font-roboto'>
-        <img src={logo} alt="" className='w-40 h-10'/>
+        <img src={logo} className='w-40 h-10'/>
         <div className='w-full lg:w-2/3'>
         <p className='font-bold text-xl lg:text-4xl text-white my-10 leading-relaxed'>Choose your entertainment category</p>
         </div>
